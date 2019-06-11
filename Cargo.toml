@@ -1,0 +1,13 @@
+[package]
+name = "pypi-parse"
+version = "0.1.0"
+authors = ["Liu Xiaoyi <circuitcoder0@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+nom = "4.2.3"
+flate2 = "1.0.7"
+paw = "1.0.0"
+structopt = { git = "https://github.com/TeXitoi/structopt", features = ["paw"] }
+hashbrown = "0.4.0"
+pretty-bytes = "0.2.2"
